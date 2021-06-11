@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDKBotHandoffDemo", "SDKBotHandoffDemo\SDKBotHandoffDemo.csproj", "{EE1F4CB3-887C-4F5C-A63F-124ECBA0D029}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot.Builder.Community.Components.Handoff.ServiceNow", "Bot.Builder.Community.Components.Handoff.ServiceNow\Bot.Builder.Community.Components.Handoff.ServiceNow.csproj", "{3CCEB903-75AD-4FA9-B7B0-4962C03360C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot.Builder.Community.Components.Handoff.Shared", "Bot.Builder.Community.Components.Handoff.Shared\Bot.Builder.Community.Components.Handoff.Shared.csproj", "{20E7E485-B743-408A-B0EB-4B30ED00A7F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE1F4CB3-887C-4F5C-A63F-124ECBA0D029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE1F4CB3-887C-4F5C-A63F-124ECBA0D029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE1F4CB3-887C-4F5C-A63F-124ECBA0D029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE1F4CB3-887C-4F5C-A63F-124ECBA0D029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCEB903-75AD-4FA9-B7B0-4962C03360C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCEB903-75AD-4FA9-B7B0-4962C03360C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCEB903-75AD-4FA9-B7B0-4962C03360C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCEB903-75AD-4FA9-B7B0-4962C03360C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E7E485-B743-408A-B0EB-4B30ED00A7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E7E485-B743-408A-B0EB-4B30ED00A7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E7E485-B743-408A-B0EB-4B30ED00A7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E7E485-B743-408A-B0EB-4B30ED00A7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {772CD15B-6FAE-42C3-8848-C8A7AF37F873}
+	EndGlobalSection
+EndGlobal

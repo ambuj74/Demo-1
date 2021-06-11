@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Bot.Builder.Community.Components.Handoff.Shared</id>
+    <version>1.0.0-preview</version>
+    <authors>Bot Builder Community</authors>
+    <owners>Bot Builder Community</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/BotBuilderCommunity/botbuilder-community-dotnet/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/BotBuilderCommunity/botbuilder-community-dotnet/tree/master/libraries/Bot.Builder.Community.Handoff.Shared</projectUrl>
+    <description>Shared handoff component for v4 Bot Builder SDK to provide a base for developing handoff capabilities.</description>
+    <tags>bots botframework botbuilder liveperson handoff</tags>
+    <repository url="https://github.com/BotBuilderCommunity/botbuilder-community-dotnet/" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.AspNetCore.Mvc.Core" version="2.2.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Bot.Builder" version="4.13.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\BotBuilder5\Bot.Builder.Community.Components.Handoff.Shared\bin\Debug\netstandard2.0\Bot.Builder.Community.Components.Handoff.Shared.dll" target="lib\netstandard2.0\Bot.Builder.Community.Components.Handoff.Shared.dll" />
+  </files>
+</package>

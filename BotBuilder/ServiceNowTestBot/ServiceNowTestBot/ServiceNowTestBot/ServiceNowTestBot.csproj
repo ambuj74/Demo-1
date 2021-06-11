@@ -1,0 +1,20 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+    <UserSecretsId>d00319f5-f08f-4bfa-9ad3-c785c04fa035</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="**/*.blu;**/*.dialog;**/*.lg;**/*.lu;**/*.onnx;**/*.qna;**/*.txt" Exclude="$(BaseOutputPath)/**;$(BaseIntermediateOutputPath)/**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.Runtime" Version="4.12.2-preview" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\source\repos\botbuilder-community-dotnet\libraries\Bot.Builder.Community.Components.Handoff.ServiceNow\Bot.Builder.Community.Components.Handoff.ServiceNow.csproj" />
+  </ItemGroup>
+</Project>
