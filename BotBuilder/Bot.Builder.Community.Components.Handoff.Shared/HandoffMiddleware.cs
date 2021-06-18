@@ -24,6 +24,7 @@ namespace Bot.Builder.Community.Components.Handoff.Shared
             // If an escalation record exists then we should route the message through to LivePerson
             if (turnContext.Activity.Type == ActivityTypes.Message && handoffRecord != null)
             {
+            
                 await RouteActivityToExistingHandoff(turnContext, handoffRecord);
                 return;
             }
@@ -68,7 +69,7 @@ namespace Bot.Builder.Community.Components.Handoff.Shared
                             break;
                         default:
                             // run full pipeline
-                            responses = await nextSend().ConfigureAwait(false);
+                            responses = await nextSend(  ).ConfigureAwait(false);
                             break;
                     }
                 }
